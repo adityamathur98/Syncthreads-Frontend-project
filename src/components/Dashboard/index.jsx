@@ -20,9 +20,12 @@ const Dashboard = () => {
   const fetchData = async () => {
     try {
       const token = Cookies.get("token");
-      const response = await axios.get("http://localhost:5001/api/dashboard", {
-        headers: { Authorization: `Bearer ${token}` },
-      });
+      const response = await axios.get(
+        "https://syncthreads-backend-project.onrender.com/api/dashboard",
+        {
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
       setData(response.data);
       setLoading(false);
     } catch (error) {

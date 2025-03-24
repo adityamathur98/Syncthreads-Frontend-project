@@ -18,7 +18,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5001/api/register",
+        "https://syncthreads-backend-project.onrender.com/api/register",
         formData,
         { headers: { "Content-Type": "application/json" } }
       );

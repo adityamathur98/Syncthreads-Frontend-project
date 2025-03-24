@@ -20,9 +20,12 @@ const MapComponent = () => {
   async function fetchMapData() {
     try {
       const token = Cookies.get("token");
-      const response = await axios.get("http://localhost:5001/api/map", {
-        headers: { Authorization: `Bearer ${token}` },
-      });
+      const response = await axios.get(
+        "https://syncthreads-backend-project.onrender.com/api/map",
+        {
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
       console.log(response);
       setMapData(response.data);
       setLoading(false);
