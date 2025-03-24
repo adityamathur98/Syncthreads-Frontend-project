@@ -8,5 +8,6 @@ export default defineConfig({
   server: {
     port: process.env.PORT || 5173,
     host: true,
+    allowedHosts: ["syncthreads-frontend-project.onrender.com"],
   },
 });
