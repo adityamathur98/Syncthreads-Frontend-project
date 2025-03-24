@@ -145,7 +145,7 @@ const LoginForm = () => {
         className="flex flex-col items-center p-[20px] rounded-[8px] w-[100%] max-w-[350px] lg:w-[350px] lg:shrink-0 lg:shadow-md lg:p-16"
         onSubmit={onSubmitForm}>
         <img
-          src="https://files.oaiusercontent.com/file-HBTpvRq1j347fXKoNs9KkY?se=2025-03-24T07%3A13%3A12Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dba25c0bb-a71f-4842-8798-2255d2c1f8a5.webp&sig=Qx2Uct/2tJmGVX8jKHBIPnl1p2TU2VrjX7OvWPwB4%2Bs%3D"
+          src="https://img.freepik.com/free-vector/gradient-quill-pen-design-template_23-2149837194.jpg?t=st=1742839138~exp=1742842738~hmac=b383b096afb819f2457f4630105dead42d06ce9fdd8cfb48ab71ddf850bcd38f&w=826"
           className="w-[120px] lg:block"
           alt="website logo"
         />
